@@ -1,0 +1,111 @@
+@media(min-width: 750px) {
+    header { /* Заголовок */
+        padding-right: 20px;
+        margin-left: -10px;
+        width: 100%;
+        height: 150px;
+        background-color: rgb(1, 90, 157);
+        margin-top: -45px;
+        float: left;
+    }
+
+    h1 {
+        font-family: "Impact", fantasy;
+        color: black;
+    }
+
+
+    .img-start { /*Эмблема Эридан*/
+        margin-top: 25px;
+        margin-left: 25px; 
+        width: 100px;
+        border-radius: 50%;
+    }
+
+    .navigator { /* эмблема + полезные ссылки*/
+        display: flex;
+    }
+
+    .navigator ul { /*Полезные ссылки*/
+        width: 80%;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 55px;
+        font-size: 25px;
+        color: #FFF;
+    }
+
+    a { /*Полезные ссылки*/
+        font-family: "Tahoma";
+        text-decoration: none;
+        color: black;
+    }
+
+    .about { 
+        margin-left: -8px;
+        margin-right: -10px;
+    }
+
+    .about-one {
+        background-image: url("page1.png");
+        background-size: 100%;
+        background-position: center;
+    }
+    .about-one p { 
+        color: #0c60de;
+        font-family: "Impact", fantasy;
+        font-size: 45px;
+        margin-left: 10%;
+    }
+
+    .about-us {
+        width: 80%;
+        margin-left: 10%;
+        background-color: #e0e1e3;
+        border-radius: 35px;
+    }
+
+    .glav {
+        margin-left: 5%;
+        padding-top: 15px;
+        font-size: 38px;
+    }
+
+    .obninsk-png {
+        border-radius: 10%;
+        margin-left: 25%;
+        width: 40%;
+
+    }
+    
+    .obninsk-tm-png {
+        border-radius: 10%;
+        margin-left: 5%;
+        width: 40%;
+        vertical-align: top;
+    }
+
+    .gol {
+        text-align: center;
+    }
+
+    .discription {
+        font-size: 26px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .more-inf {
+        margin-left: 5%;
+        padding-bottom: 15px;
+    }
+
+    .videok {
+        margin-left: 10%;
+    }
+
+    .mapes {
+        margin-left: 10%;
+    }
+}
